@@ -24,12 +24,6 @@
 
 ---
 
-## 🚀 Live Demo
-
-
-
----
-
 ## 📁 How to Use Locally
 
 1. Clone this repository:
