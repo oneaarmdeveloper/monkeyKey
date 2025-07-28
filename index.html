@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>MonkeyKey Basic Version</title>
+    <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+    <h1>Step 1: Basic Text Display and Comparison</h1>
+    <p><strong>Goal:</strong> Getting text display and basic character comparison working</p>
+
+    <div class="text-display" id="textDisplay"></div>
+    <input type="text" id="userInput" placeholder="Start typing..." />
+
+    <div class="debug" id="debug">
+        <div>Characters typed: <span id="charCount">0</span></div>
+        <div>Current Index: <span id="currentIndex">0</span></div>
+        <div>Correct: <span id="correct">0</span></div>
+        <div>Incorrect: <span id="incorrect">0</span></div>
+    </div>
+
+    <!-- ✅ Load script at the end of body to ensure DOM is ready -->
+    <script src="script.js"></script>
+</body>
+</html>
